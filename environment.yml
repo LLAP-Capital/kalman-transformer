@@ -1,0 +1,33 @@
+name: kalman-transformer
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+  - pyg
+  - pip
+dependencies:
+  - python=3.10.0
+  - pandas
+  - numpy
+  - tqdm
+  - tensorflow
+  - tensorflow-probability
+  - pyg-lib
+  - pygod
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pyg
+  - pytorch-sparse
+  - jupyterlab
+  - yfinance
+  - matplotlib
+  - openpyxl
+  - ipywidgets
+  - cvxopt
+  - dropbox
+  - networkx
+  - seaborn
+  - pip:
+    - torch-geometric
+    - torch-geometric-temporal
