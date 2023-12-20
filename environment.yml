@@ -3,7 +3,7 @@ channels:
   - defaults
   - conda-forge
   - pytorch
-  - pyg
+    #- pyg
   - pip
 dependencies:
   - python=3.10.0
@@ -18,7 +18,7 @@ dependencies:
   - torchvision
   - torchaudio
   - pyg
-  - pytorch-sparse
+    #- pytorch-sparse
   - jupyterlab
   - yfinance
   - matplotlib
