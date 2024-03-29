@@ -17,8 +17,8 @@ dependencies:
   - pytorch
   - torchvision
   - torchaudio
-  - pyg
-    #- pytorch-sparse
+  #- pyg
+  #- pytorch-sparse
   - jupyterlab
   - yfinance
   - matplotlib
